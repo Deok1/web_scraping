@@ -1,0 +1,12 @@
+xpath : 코드나 문장의 경로
+ex)
+    /학교/학년/반/학생/번호 -> full버전
+    
+    if 학번이 있을 시
+    //*[@학번="201601962"] -> 간소화 버전
+
+실제예시
+    /html/body/ytd-app/div/div/ytd-masthead/div[3]/div[1]/ytd-topbar-logo-renderer/a/div/yt-icon
+    //*[@id="logo-icon"]
+
+    

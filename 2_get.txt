@@ -1,0 +1,11 @@
+GET 방식
+    : 누구나 볼 수 있는 정보
+    https://www.coupang.com/np/search?page=1&rocketAll=false&searchIndexingToken=1=5&backgroundColor=
+    sol)
+        "?"뒤부터는 변수=값 형식 ex)page는 1이다
+        "&"로 변수와 값을 구분함
+        한번 전송할 때 최대치가 정해져있음
+
+POST
+    : 보안이 필요한 데이터, 데이터 양 제한이 없음, ID PASSWORD 쓸때 사용
+    https://www.coupang.com/np/search?id=rlaejrdlf&password=1234
